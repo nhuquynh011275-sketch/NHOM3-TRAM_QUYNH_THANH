@@ -1,0 +1,47 @@
+# Lớp Java đã biên dịch (Compiled class files)
+*.class
+
+# Dữ liệu được game tạo ra khi chạy (Tránh bị git theo dõi liên tục)
+history.txt
+highscore.txt
+
+# File đóng gói (Package Files)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Thư mục build và output
+bin/
+out/
+build/
+target/
+
+# Log file và file crash của Java (Virtual machine crash logs)
+hs_err_pid*
+replay_pid*
+
+# --- CẤU HÌNH CỦA CÁC TRÌNH BIÊN DỊCH (IDE) ---
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Visual Studio Code
+.vscode/
+
+# --- HỆ ĐIỀU HÀNH (OS specific) ---
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
